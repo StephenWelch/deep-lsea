@@ -1,0 +1,37 @@
+name: deep-lsea
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.10
+  - pip
+  - casadi
+  - graphviz
+  - pip:
+    - numpy
+    - pandas 
+    - dill 
+    - pydot==1.4.2 
+    - networkx
+    - plum-dispatch
+    - pytest
+    - hypothesis
+    - cvxpy
+    - cvxopt
+    - seaborn
+    - torchdiffeq
+    - mlflow 
+    - matplotlib 
+    - scikit-learn 
+    - torch
+    - scipy
+    - pyts
+    - numba
+    - tqdm
+    - git+https://github.com/pnnl/neuromancer@bc45a2772009303da6aac129617d82dec08e7d7e#egg=neuromancer
+    - git+https://github.com/pnnl/slim@3fbe3a7819e1eb6e1d794d98de85e0c2fa7b6dcc#egg=slim
+    - git+https://github.com/pnnl/psl@81fe62d362a7918cf783e893eef05c2657e1d70c#egg=psl
